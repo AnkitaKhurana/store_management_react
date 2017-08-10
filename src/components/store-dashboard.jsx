@@ -5,25 +5,24 @@ import axios from "axios";
 
 
 
-export default class EventDashboard extends React.Component{
+export default class StoreDashboard extends React.Component{
 
     constructor(props)
     {
         super(props);
-        this.state=({events:[]});
+        this.state=({footwear:[]});
 
 
     }
     componentsDidMount()
     {
-        var url = "http://localhost:3456/api/events";
-        var config = {};
+        let url = "http://localhost:3456/api/events";
+        let config = {};
         config.headers = {
             "Authorization":"Bearer xDCPx3jy0Nja1yoOGQJ4 ",
             "Content-Type":"application/x-www-form-urlencoded"
 
         }
-
 
         axios.get(url,config)
             .then(function (response) {
@@ -42,11 +41,11 @@ export default class EventDashboard extends React.Component{
     render(){ return (
         <div style={{marginTop: "20px", marginLeft: "20px"}}>
             <CommonHeader
-                title="My Events"
-                buttonLabel="Create Event"
-                onButtonClick={function(){console.log("This should trigger the Create Event UI")}}
+                title="Footwear"
+                buttonLabel="Create New Entry"
+                onButtonClick={function(){console.log("This should trigger the Create Footwear UI")}}
             />
-            <HostingTable myEvents={this.state.events} />
+            <HostingTable myEvents={this.state.footwear} />
         </div>
     )}
 
