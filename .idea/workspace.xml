@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eae41cb2-81ef-4f16-b214-267dc0a1b129" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/StoreDashboard/hosting-row.jsx" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/components/store-dashboard.jsx" afterPath="$PROJECT_DIR$/src/components/StoreDashboard/store-dashboard.jsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app.jsx" afterPath="$PROJECT_DIR$/src/app.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/StoreDashboard/hosting-table.jsx" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,6 +23,18 @@
             <state relative-caret-position="251">
               <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hosting-table.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/StoreDashboard/hosting-table.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="404">
+              <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,7 +83,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hosting-row.jsx" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hosting-row.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/StoreDashboard/hosting-row.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="404">
@@ -126,6 +136,7 @@
         <option value="$PROJECT_DIR$/src/components/Common/common-header.jsx" />
         <option value="$PROJECT_DIR$/src/components/Common/common-button.jsx" />
         <option value="$PROJECT_DIR$/src/components/StoreDashboard/hosting-row.jsx" />
+        <option value="$PROJECT_DIR$/src/components/StoreDashboard/hosting-table.jsx" />
       </list>
     </option>
   </component>
@@ -355,12 +366,12 @@
       <updated>1502092784671</updated>
       <workItem from="1502092786239" duration="17000" />
       <workItem from="1502092847615" duration="5047000" />
-      <workItem from="1502339210239" duration="2598000" />
+      <workItem from="1502339210239" duration="2637000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7662000" />
+    <option name="totallyTimeSpent" value="7701000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="0" />
@@ -447,14 +458,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/.babelrc" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.babelrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -529,6 +532,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/StoreDashboard/hosting-table.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
