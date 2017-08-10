@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from "react-dom";
 
-import StoreDashboard from "./components/store-dashboard.jsx";
+import StoreDashboard from "./components/StoreDashboard/store-dashboard.jsx";
 
 class App extends React.Component{
 
